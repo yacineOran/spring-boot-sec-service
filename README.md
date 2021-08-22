@@ -12,11 +12,11 @@ http://localhost:8080/h2-console/
 http.csrf().disable();
 
 - frams : désactivé la protection contre les frams
-
+http.headers().frameOptions().disable();
 # URLS 
 - http://localhost:8080/users
 
 # Architecture 
-![arch.PNG.png](imgs/arch.png)
+![imgs/arch.PNG.png](imgs/arch.PNG)
 
 
