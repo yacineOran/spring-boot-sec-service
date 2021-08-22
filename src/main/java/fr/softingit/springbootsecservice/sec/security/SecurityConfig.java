@@ -24,6 +24,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         // Test 3 :
         // toutes les requettes ne necessiste pas une authentification
-        http.authorizeRequests().anyRequest().permitAll();
+        //http.authorizeRequests().anyRequest().permitAll();
+
+        // Test 4 : Spring Security : User/MDP
+        http.authorizeRequests().anyRequest().authenticated();
     }
 }
