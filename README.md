@@ -16,4 +16,7 @@ http.csrf().disable();
 # URLS 
 - http://localhost:8080/users
 
+# Architecture 
+![arch.PNG.png](imgs/arch.png)
+
 
